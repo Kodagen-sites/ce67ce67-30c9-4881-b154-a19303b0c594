@@ -1,5 +1,6 @@
 import { FadeUp, TextReveal } from "@/components/motion";
 import { siteConfig } from "@/content/site-config";
+import assetManifest from "@/content/asset-manifest.json";
 
 /**
  * Process — Archetype G section 6 (how it works, T15 split layout).
@@ -15,7 +16,7 @@ export default function Process() {
           <FadeUp>
             <div className="overflow-hidden rounded-2xl border border-ink/10">
               <img
-                src="/section-process.jpg"
+                src={assetManifest.images["section-process"]}
                 alt="A FreshFold team member folding a freshly laundered shirt"
                 className="aspect-[4/5] w-full object-cover"
               />

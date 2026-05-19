@@ -4,6 +4,7 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { FadeUp, MagneticButton } from "@/components/motion";
 import { siteConfig } from "@/content/site-config";
+import assetManifest from "@/content/asset-manifest.json";
 
 /**
  * CtaSection — Archetype G section 10 (CTA1 centred oversized type).
@@ -14,7 +15,7 @@ export default function CtaSection() {
   return (
     <section className="relative overflow-hidden">
       <img
-        src="/section-cta.jpg"
+        src={assetManifest.images["section-cta"]}
         alt=""
         aria-hidden
         className="absolute inset-0 h-full w-full object-cover"

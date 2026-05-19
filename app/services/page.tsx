@@ -5,6 +5,7 @@ import PageHero from "@/components/sections/PageHero";
 import ServiceCard from "@/components/ServiceCard";
 import { FadeUp, StaggerChildren, CardTiltLayer } from "@/components/motion";
 import { siteConfig } from "@/content/site-config";
+import assetManifest from "@/content/asset-manifest.json";
 
 export const metadata: Metadata = {
   title: "Services",
@@ -19,7 +20,7 @@ export default function ServicesPage() {
       <PageHero
         eyebrow="What we do"
         title="Laundry care, done properly."
-        image="/section-services.jpg"
+        image={assetManifest.images["section-services"]}
         intro="From everyday washing to specialist dry cleaning — choose the service that fits, and we'll bring it back fresh."
       />
 

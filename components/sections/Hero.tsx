@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import { MagneticButton, ScrollHint } from "@/components/motion";
 import { siteConfig } from "@/content/site-config";
+import assetManifest from "@/content/asset-manifest.json";
 
 /**
  * Hero — Archetype G, T1 video loop, HO1 centred overlay, H5 hero text.
@@ -24,7 +25,7 @@ export default function Hero() {
         muted
         loop
         playsInline
-        poster="/section-cta.jpg"
+        poster={assetManifest.images["section-cta"]}
       >
         <source src="/hero.mp4" type="video/mp4" />
       </video>

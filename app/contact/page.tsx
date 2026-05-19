@@ -4,6 +4,7 @@ import ContactForm from "@/components/ContactForm";
 import { FadeUp } from "@/components/motion";
 import { siteConfig } from "@/content/site-config";
 import { Mail, Phone, MessageCircle, MapPin } from "lucide-react";
+import assetManifest from "@/content/asset-manifest.json";
 
 export const metadata: Metadata = {
   title: "Contact & Book a Pickup",
@@ -20,7 +21,7 @@ export default function ContactPage() {
       <PageHero
         eyebrow="Get in touch"
         title="Book a pickup. We'll handle the rest."
-        image="/section-cta.jpg"
+        image={assetManifest.images["section-cta"]}
         intro="Tell us when suits you and which city you're in — a FreshFold team member will confirm your collection window."
       />
 

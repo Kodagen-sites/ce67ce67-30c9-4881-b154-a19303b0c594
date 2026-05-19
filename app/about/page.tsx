@@ -4,6 +4,7 @@ import { ArrowRight } from "lucide-react";
 import PageHero from "@/components/sections/PageHero";
 import { FadeUp, TextReveal, StaggerChildren } from "@/components/motion";
 import { siteConfig } from "@/content/site-config";
+import assetManifest from "@/content/asset-manifest.json";
 
 export const metadata: Metadata = {
   title: "About",
@@ -19,7 +20,7 @@ export default function AboutPage() {
       <PageHero
         eyebrow={about.eyebrow}
         title="Built to give people their weekends back."
-        image="/section-process.jpg"
+        image={assetManifest.images["section-process"]}
         intro="A small team, three cities, and one stubborn belief: clean clothes shouldn't cost you a day off."
       />
 

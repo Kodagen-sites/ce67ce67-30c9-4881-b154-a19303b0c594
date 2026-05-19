@@ -1,4 +1,5 @@
 import { FadeUp, ImageRevealMask } from "@/components/motion";
+import assetManifest from "@/content/asset-manifest.json";
 
 /**
  * Showcase — Archetype G section 4. A single feature image (ImageRevealMask)
@@ -10,7 +11,7 @@ export default function Showcase() {
       <div className="shell grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
         <FadeUp>
           <ImageRevealMask
-            src="/section-services.jpg"
+            src={assetManifest.images["section-services"]}
             alt="Inside a bright FreshFold garment-care studio"
             direction="left"
             aspectClass="aspect-[5/4]"
