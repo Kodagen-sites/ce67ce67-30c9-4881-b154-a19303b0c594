@@ -1,0 +1,16 @@
+{
+  "images": {
+    "section-process": "https://zykgxmubadvmlxpkqrzd.supabase.co/storage/v1/object/public/site-assets/ce67ce67-30c9-4881-b154-a19303b0c594/images/section-process.jpg",
+    "service-pickup-delivery": "https://zykgxmubadvmlxpkqrzd.supabase.co/storage/v1/object/public/site-assets/ce67ce67-30c9-4881-b154-a19303b0c594/images/service-pickup-delivery.jpg",
+    "section-cta": "https://zykgxmubadvmlxpkqrzd.supabase.co/storage/v1/object/public/site-assets/ce67ce67-30c9-4881-b154-a19303b0c594/images/section-cta.jpg",
+    "service-wash-fold": "https://zykgxmubadvmlxpkqrzd.supabase.co/storage/v1/object/public/site-assets/ce67ce67-30c9-4881-b154-a19303b0c594/images/service-wash-fold.jpg",
+    "service-dry-cleaning": "https://zykgxmubadvmlxpkqrzd.supabase.co/storage/v1/object/public/site-assets/ce67ce67-30c9-4881-b154-a19303b0c594/images/service-dry-cleaning.jpg",
+    "section-services": "https://zykgxmubadvmlxpkqrzd.supabase.co/storage/v1/object/public/site-assets/ce67ce67-30c9-4881-b154-a19303b0c594/images/section-services.jpg"
+  },
+  "videos": {
+    "scene-1": "https://zykgxmubadvmlxpkqrzd.supabase.co/storage/v1/object/public/site-assets/ce67ce67-30c9-4881-b154-a19303b0c594/videos/scene-1.mp4"
+  },
+  "frames": {},
+  "bucket": "site-assets",
+  "projectId": "ce67ce67-30c9-4881-b154-a19303b0c594"
+}
